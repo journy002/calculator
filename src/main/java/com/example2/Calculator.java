@@ -1,6 +1,7 @@
 package com.example2;
 
 import java.util.Scanner;
+@SuppressWarnings("Ignore LoopWarning")
 
 public class Calculator {
     public static void main(String[] args) {
