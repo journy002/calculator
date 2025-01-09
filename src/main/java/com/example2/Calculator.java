@@ -8,7 +8,7 @@ public class Calculator {
         Scanner sc = new Scanner(System.in);
 
         System.out.println("계산기 시작");
-
+        Calculator cal = new Calculator();
         // 계산기 시작 or 종료
 
         while (true) {
@@ -27,6 +27,7 @@ public class Calculator {
                 case "+":
                     AddOperation add = new AddOperation(num1, num2);
                     add.addMethod();
+
                     break;
 
                 case "-":
