@@ -1,4 +1,4 @@
-package com.assignment.lv2;
+package com.sample.lv2;
 
 import java.util.LinkedList;
 import java.util.Queue;
@@ -53,12 +53,6 @@ public class Calculator {
 
     // 데이터 삭제
     public void deleteSaveNum() {
-        if (saveNum.isEmpty()) {
-            System.out.println("삭제할 값이 없습니다.");
-        } else {
-            saveNum.remove();
-        }
+        saveNum.remove();
     }
-
 }
-
